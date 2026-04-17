@@ -112,7 +112,7 @@ export default async function BlogPostPage({ params }: Props) {
         </header>
 
         {/* Body */}
-        <div className="prose max-w-none space-y-5 text-[var(--color-text-muted)] font-body text-base leading-relaxed" itemProp="articleBody">
+        <div className="prose max-w-none space-y-5 text-[var(--color-text-muted)] font-body text-base leading-relaxed text-justify" itemProp="articleBody">
           {paragraphs.map((para, i) => {
             if (para.startsWith('**') && para.endsWith('**')) {
               return (
