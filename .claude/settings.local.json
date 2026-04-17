@@ -15,7 +15,12 @@
       "Bash(curl --version)",
       "Bash(gh repo *)",
       "Bash(curl -sI https://amzn.to/4dYEwAp)",
-      "Bash(curl *)"
+      "Bash(curl *)",
+      "Bash(git push *)",
+      "Bash(npx tsc *)",
+      "Bash(python3 -c ' *)",
+      "Bash(identify \"/Users/rae/skincareprice/public/images/products/medicube-zero-pore-pad.webp\")",
+      "Bash(sips -s format jpeg \"/Users/rae/skincareprice/public/images/products/medicube-zero-pore-pad.webp\" --out \"/Users/rae/skincareprice/public/images/products/medicube-zero-pore-pad.jpg\")"
     ]
   }
 }
