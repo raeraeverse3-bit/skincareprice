@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=Lato:wght@300;400;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --color-primary: #996347;
+  --color-dark: #5b4831;
+  --color-light-blue: #b4c5c9;
+  --color-sage: #94a195;
+  --color-taupe: #9e9686;
+  --color-blush: #d3c7be;
+  --color-bg: #f4f1ee;
+  --color-white: #ffffff;
+  --color-text: #2d2520;
+  --color-text-muted: #6b5d54;
+  --font-headline: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+  --font-label: 'Lato', sans-serif;
+}
+
+@theme inline {
+  --color-background: var(--color-bg);
+  --color-foreground: var(--color-text);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-headline);
+  line-height: 1.2;
+  color: var(--color-dark);
+}
+
+.font-headline { font-family: var(--font-headline); }
+.font-body { font-family: var(--font-body); }
+.font-label { font-family: var(--font-label); }
+
+/* Tier badge colors */
+.tier-s { background: #c9a96e; color: #2d1f00; }
+.tier-a { background: var(--color-sage); color: #1a2e1b; }
+.tier-b { background: var(--color-light-blue); color: #1a2a2e; }
+.tier-c { background: var(--color-taupe); color: #1a1812; }
+.tier-d { background: #d4a0a0; color: #2e1212; }
+
+/* Score bar */
+.score-bar-fill {
+  height: 6px;
+  border-radius: 9999px;
+  background: linear-gradient(90deg, var(--color-primary), var(--color-dark));
+  transition: width 0.6s ease;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--color-bg); }
+::-webkit-scrollbar-thumb { background: var(--color-blush); border-radius: 3px; }
+
+/* Focus ring */
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* Smooth transitions */
+a, button { transition: all 0.2s ease; }
