@@ -35,8 +35,16 @@ export default function ProductCard({
       itemType="https://schema.org/Product"
     >
       {/* Image area */}
-      <div className="relative bg-[var(--color-bg)] aspect-square overflow-hidden">
-        <div className="w-full h-full bg-[var(--color-blush)] opacity-40" />
+      <div className="relative w-full bg-[var(--color-bg)] aspect-square overflow-hidden">
+        {product.image ? (
+          <img
+            src={product.image}
+            alt={`${product.name} by ${product.brand}`}
+            className="absolute inset-0 w-full h-full object-cover"
+          />
+        ) : (
+          <div className="w-full h-full bg-[var(--color-blush)] opacity-40" />
+        )}
         <div className="absolute top-3 left-3 flex flex-col gap-1.5">
           <TierBadge tier={product.tier} size="sm" />
           {product.isAgeSupport && <AgeSupportBadge size="sm" />}
