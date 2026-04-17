@@ -554,7 +554,7 @@ export const PRODUCTS: Product[] = [
     priceRange: 'mid',
     affiliateUrl: 'https://www.amazon.com/dp/B06Y26TP9S?tag=skincareprice-20',
     affiliatePartner: 'Amazon',
-    image: '/images/products/strawberryrhubarbmasque.jpg',
+    image: '/images/products/71sViQ1y2BL._SL1500_.jpg',
     tier: 'A',
     overallScore: 8.6,
     isAgeSupport: true,
