@@ -3,7 +3,8 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { BLOG_POSTS, getBlogPostBySlug } from '@/lib/blog';
 import { PRODUCTS } from '@/lib/products';
-import TierBadge from '@/components/TierBadge';
+import BlogCTA from '@/components/BlogCTA';
+import FTCDisclosure from '@/components/FTCDisclosure';
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -58,21 +59,40 @@ export default async function BlogPostPage({ params }: Props) {
     keywords: post.tags.join(', '),
   };
 
+  const breadcrumbLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://skincareprice.com' },
+      { '@type': 'ListItem', position: 2, name: 'Skincare Dossier', item: 'https://skincareprice.com/blog' },
+      { '@type': 'ListItem', position: 3, name: post.title, item: `https://skincareprice.com/blog/${post.slug}` },
+    ],
+  };
+
+  const faqLd = post.faq && post.faq.length > 0 ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: post.faq.map(({ question, answer }) => ({
+      '@type': 'Question',
+      name: question,
+      acceptedAnswer: { '@type': 'Answer', text: answer },
+    })),
+  } : null;
+
   const paragraphs = post.content.split('\n\n').filter(Boolean);
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
+      {faqLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />}
 
       {/* Breadcrumb */}
       <div className="bg-white border-b border-[var(--color-blush)]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 py-3 text-xs font-label text-[var(--color-text-muted)]">
           <Link href="/blog" className="hover:text-[var(--color-primary)]">Skincare Dossier</Link>
           {' › '}
-          <span className="text-[var(--color-dark)]">{post.title}</span>
+          <span className="text-[var(--color-dark)]">{post.displayTitle ?? post.title}</span>
         </div>
       </div>
 
@@ -93,13 +113,13 @@ export default async function BlogPostPage({ params }: Props) {
             className="font-headline text-4xl sm:text-5xl text-[var(--color-dark)] mb-4 leading-tight"
             itemProp="headline"
           >
-            {post.title}
+            {post.displayTitle ?? post.title}
           </h1>
           <p className="text-lg text-[var(--color-text-muted)] font-body mb-4" itemProp="description">
             {post.excerpt}
           </p>
           <div className="flex items-center gap-3 text-xs font-label text-[var(--color-text-muted)]">
-            <span>Dossier Editors</span>
+            <span>{post.byline ?? 'Dossier Editors'}</span>
             <span>·</span>
             <time dateTime={post.publishedAt} itemProp="datePublished">
               {new Date(post.publishedAt).toLocaleDateString('en-US', {
@@ -110,6 +130,11 @@ export default async function BlogPostPage({ params }: Props) {
             </time>
           </div>
         </header>
+
+        {/* FTC Disclosure */}
+        <div className="mb-8">
+          <FTCDisclosure inline />
+        </div>
 
         {/* Body */}
         <div className="prose max-w-none space-y-5 text-[var(--color-text-muted)] font-body text-base leading-relaxed text-justify" itemProp="articleBody">
@@ -145,6 +170,31 @@ export default async function BlogPostPage({ params }: Props) {
           })}
         </div>
 
+        {/* Signature */}
+        {post.signature && (
+          <p
+            className="mt-8 text-4xl text-[var(--color-primary)]"
+            style={{ fontFamily: 'var(--font-signature)' }}
+          >
+            {post.signature}
+          </p>
+        )}
+
+        {/* FAQ */}
+        {post.faq && post.faq.length > 0 && (
+          <section className="mt-10 bg-[var(--color-blush)] rounded-2xl p-6">
+            <h2 className="font-headline text-2xl text-[var(--color-dark)] mb-5">Frequently Asked Questions</h2>
+            <div className="space-y-5">
+              {post.faq.map(({ question, answer }, i) => (
+                <div key={i} className="border-b border-[var(--color-taupe)] border-opacity-30 pb-5 last:border-0 last:pb-0">
+                  <h3 className="font-headline text-lg text-[var(--color-dark)] mb-1.5">{question}</h3>
+                  <p className="text-sm font-body text-[var(--color-text-muted)] leading-relaxed">{answer}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
         {/* Tags */}
         <div className="flex gap-2 flex-wrap mt-8 pt-6 border-t border-[var(--color-blush)]">
           {post.tags.map((tag) => (
@@ -157,47 +207,7 @@ export default async function BlogPostPage({ params }: Props) {
           ))}
         </div>
 
-        {/* Related products */}
-        {relatedProducts.length > 0 && (
-          <section className="mt-10">
-            <h2 className="font-headline text-2xl text-[var(--color-dark)] mb-4">
-              Products mentioned in this article
-            </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              {relatedProducts.map((product) => (
-                <div
-                  key={product.id}
-                  className="bg-white rounded-xl border border-[var(--color-blush)] p-4 flex gap-3 items-start"
-                >
-                  <TierBadge tier={product.tier} size="sm" />
-                  <div className="flex-1 min-w-0">
-                    <p className="text-xs font-label text-[var(--color-taupe)]">{product.brand}</p>
-                    <p className="font-headline text-base text-[var(--color-dark)] truncate">{product.name}</p>
-                    <div className="flex items-center gap-2 mt-1">
-                      <Link
-                        href={`/products/${product.slug}`}
-                        className="text-xs font-label text-[var(--color-primary)] hover:underline"
-                      >
-                        Read review
-                      </Link>
-                      <span className="text-xs text-[var(--color-text-muted)]">·</span>
-                      <a
-                        href={product.affiliateUrl}
-                        target="_blank"
-                        rel="noopener noreferrer sponsored"
-                        className="text-xs font-label text-[var(--color-text-muted)] hover:text-[var(--color-primary)]"
-                      >
-                        Shop ${product.price} →
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </section>
-        )}
-
-        {/* Back to journal */}
+        {/* Back to Dossier */}
         <div className="mt-10">
           <Link
             href="/blog"
@@ -206,6 +216,11 @@ export default async function BlogPostPage({ params }: Props) {
             ← Back to Skincare Dossier
           </Link>
         </div>
+
+        <BlogCTA
+          products={relatedProducts}
+          otherPosts={BLOG_POSTS.filter((p) => p.slug !== post.slug).slice(0, 2)}
+        />
       </article>
     </>
   );

@@ -78,7 +78,7 @@ export default function BlogPage() {
                   </time>
                 </div>
                 <h2 className="font-headline text-2xl sm:text-3xl text-[var(--color-dark)] mb-2 group-hover:text-[var(--color-primary)] transition-colors" itemProp="headline">
-                  <Link href={`/blog/${post.slug}`}>{post.title}</Link>
+                  <Link href={`/blog/${post.slug}`}>{post.displayTitle ?? post.title}</Link>
                 </h2>
                 <p className="text-[var(--color-text-muted)] mb-4 font-body" itemProp="description">
                   {post.excerpt}

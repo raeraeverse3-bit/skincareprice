@@ -26,7 +26,8 @@ export type ProductType =
   | 'spf'
   | 'exfoliant'
   | 'mist'
-  | 'balm';
+  | 'balm'
+  | 'skin-wellness';
 
 export type IngredientFocus =
   | 'retinol'
@@ -94,6 +95,7 @@ export interface Product {
   affiliateUrl: string;
   affiliatePartner: string;
   image: string;
+  images?: string[];
   tier: Tier;
   overallScore: number;
   isAgeSupport: boolean; // prioritizes skin health over youth-chasing
@@ -112,6 +114,7 @@ export interface BlogPost {
   id: string;
   slug: string;
   title: string;
+  displayTitle?: string;
   excerpt: string;
   content: string;
   category: string;
@@ -122,6 +125,9 @@ export interface BlogPost {
   updatedAt: string;
   readTime: number;
   relatedProducts?: string[];
+  byline?: string;
+  signature?: string;
+  faq?: Array<{ question: string; answer: string }>;
 }
 
 export type SortOption =

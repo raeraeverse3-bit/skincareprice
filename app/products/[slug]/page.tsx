@@ -7,6 +7,7 @@ import AgeSupportBadge from '@/components/AgeSupportBadge';
 import ScoreBar from '@/components/ScoreBar';
 import AgeDecadeChart from '@/components/AgeDecadeChart';
 import FTCDisclosure from '@/components/FTCDisclosure';
+import ProductImageGallery from '@/components/ProductImageGallery';
 import { TIER_LABELS } from '@/lib/scoring';
 
 interface Props {
@@ -98,6 +99,14 @@ export default async function ProductPage({ params }: Props) {
 
           {/* Left: main review */}
           <div className="lg:col-span-2 space-y-8">
+
+            {/* Image gallery */}
+            {(product.images ?? (product.image ? [product.image] : [])).length > 0 && (
+              <ProductImageGallery
+                images={product.images ?? [product.image]}
+                alt={`${product.name} by ${product.brand}`}
+              />
+            )}
 
             {/* Header */}
             <div>

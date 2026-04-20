@@ -43,6 +43,7 @@ const FILTER_OPTIONS = {
     { value: 'spf', label: 'SPF' },
     { value: 'exfoliant', label: 'Exfoliant' },
     { value: 'mist', label: 'Mist' },
+    { value: 'skin-wellness', label: 'Skin Wellness' },
   ],
   ingredientFocus: [
     { value: 'retinol', label: 'Retinol' },
