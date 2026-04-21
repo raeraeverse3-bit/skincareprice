@@ -73,6 +73,11 @@ export default function BlogCTA({ products, otherPosts }: Props) {
                       Shop ${product.price}
                     </a>
                   </div>
+                  {product.brand === 'The Golden Secrets' && (
+                    <p className="text-center text-xs font-label text-[var(--color-taupe)] mt-1.5">
+                      Use code <span className="font-semibold text-[var(--color-dark)]">XOR10</span> for 10% off
+                    </p>
+                  )}
                 </div>
               </div>
             ))}

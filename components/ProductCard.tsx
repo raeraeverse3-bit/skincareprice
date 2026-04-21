@@ -127,6 +127,11 @@ export default function ProductCard({
             Shop ${product.price}
           </a>
         </div>
+        {product.brand === 'The Golden Secrets' && (
+          <p className="text-center text-xs font-label text-[var(--color-taupe)] mt-2">
+            Use code <span className="font-semibold text-[var(--color-dark)]">XOR10</span> for 10% off
+          </p>
+        )}
       </div>
     </article>
   );

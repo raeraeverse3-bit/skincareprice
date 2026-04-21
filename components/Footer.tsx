@@ -29,7 +29,7 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-label font-semibold text-[var(--color-blush)] mb-3 uppercase tracking-wider">Brands We Love</h4>
             <ul className="space-y-2 text-sm font-label text-[var(--color-taupe)]">
-              <li><a href="https://bit.ly/3xwBvkm" target="_blank" rel="noopener noreferrer sponsored" className="hover:text-white transition-colors">The Golden Secrets</a></li>
+              <li><a href="https://www.thegoldensecrets.com/?rfsn=9073470.1e33271&utm_source=refersion&utm_medium=affiliate&utm_campaign=9073470.1e33271" target="_blank" rel="noopener noreferrer sponsored" className="hover:text-white transition-colors">The Golden Secrets</a></li>
               <li><a href="https://oseamalibu.com/?rfsn=7790532.88631ca&utm_source=refersion&utm_medium=affiliate&utm_campaign=7790532.88631ca" target="_blank" rel="noopener noreferrer sponsored" className="hover:text-white transition-colors">OSEA Malibu</a></li>
               <li><a href="https://true-botanicals.sjv.io/E09GAX" target="_blank" rel="noopener noreferrer sponsored" className="hover:text-white transition-colors">True Botanicals</a></li>
               <li><a href="https://juara-skincare.sjv.io/enqBXZ" target="_blank" rel="noopener noreferrer sponsored" className="hover:text-white transition-colors">Juara Skincare</a></li>
