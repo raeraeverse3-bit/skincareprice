@@ -215,7 +215,7 @@ A product can have gorgeous packaging and mediocre efficacy and still score poor
 **The one question worth asking**
 
 Before buying anything: what specific thing am I trying to address, and does this product's active ingredient — at the concentration it appears in this formula — address that thing? If you can answer yes with evidence, buy it. If you can't, you're paying for packaging.`,
-    category: 'Buying Guides',
+    category: 'Buying Guide',
     tags: ['how to choose skincare', 'ingredients', 'value', 'scoring', 'product guide'],
     image: '/images/blog/product-card-guide.jpg',
     author: 'Dossier Editors',
@@ -1118,6 +1118,8 @@ See our full series on skin through the decades: <a href="/blog/your-skin-in-you
     ],
   },
 ];
+
+BLOG_POSTS.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
