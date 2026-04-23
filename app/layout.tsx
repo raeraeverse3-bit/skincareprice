@@ -4,7 +4,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://skincareprice.com'),
+  metadataBase: new URL('https://www.skincareprice.com'),
   title: {
     default: 'SkinCarePrice — Honest Skincare Reviews & Comparisons',
     template: '%s | SkinCarePrice',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://skincareprice.com',
+    url: 'https://www.skincareprice.com',
     siteName: 'SkinCarePrice',
     title: 'SkinCarePrice — Honest Skincare Reviews & Comparisons',
     description:
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  alternates: { canonical: 'https://skincareprice.com' },
+  alternates: { canonical: 'https://www.skincareprice.com' },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -75,13 +75,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               '@context': 'https://schema.org',
               '@type': 'WebSite',
               name: 'SkinCarePrice',
-              url: 'https://skincareprice.com',
+              url: 'https://www.skincareprice.com',
               description: 'Independent skincare product reviews and comparisons with tier scoring.',
               potentialAction: {
                 '@type': 'SearchAction',
                 target: {
                   '@type': 'EntryPoint',
-                  urlTemplate: 'https://skincareprice.com/?q={search_term_string}',
+                  urlTemplate: 'https://www.skincareprice.com/?q={search_term_string}',
                 },
                 'query-input': 'required name=search_term_string',
               },

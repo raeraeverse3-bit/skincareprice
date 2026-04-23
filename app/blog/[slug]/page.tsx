@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: post.title,
     description: post.excerpt,
-    alternates: { canonical: `https://skincareprice.com/blog/${slug}` },
+    alternates: { canonical: `https://www.skincareprice.com/blog/${slug}` },
     openGraph: {
       title: post.title,
       description: post.excerpt,
@@ -47,14 +47,14 @@ export default async function BlogPostPage({ params }: Props) {
     '@type': 'BlogPosting',
     headline: post.title,
     description: post.excerpt,
-    url: `https://skincareprice.com/blog/${post.slug}`,
+    url: `https://www.skincareprice.com/blog/${post.slug}`,
     datePublished: post.publishedAt,
     dateModified: post.updatedAt,
     author: { '@type': 'Organization', name: post.author },
     publisher: {
       '@type': 'Organization',
       name: 'SkinCarePrice',
-      url: 'https://skincareprice.com',
+      url: 'https://www.skincareprice.com',
     },
     keywords: post.tags.join(', '),
   };
@@ -63,9 +63,9 @@ export default async function BlogPostPage({ params }: Props) {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://skincareprice.com' },
-      { '@type': 'ListItem', position: 2, name: 'Skincare Dossier', item: 'https://skincareprice.com/blog' },
-      { '@type': 'ListItem', position: 3, name: post.title, item: `https://skincareprice.com/blog/${post.slug}` },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.skincareprice.com' },
+      { '@type': 'ListItem', position: 2, name: 'Skincare Dossier', item: 'https://www.skincareprice.com/blog' },
+      { '@type': 'ListItem', position: 3, name: post.title, item: `https://www.skincareprice.com/blog/${post.slug}` },
     ],
   };
 

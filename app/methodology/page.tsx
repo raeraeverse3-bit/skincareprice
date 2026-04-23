@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'How We Score Skincare Products — Our Methodology',
   description:
     'Learn how SkinCarePrice independently scores skincare products using an 8-dimension rubric, age-decade ratings, and the 🌱 Age-Support flag. Full editorial independence disclosed.',
-  alternates: { canonical: 'https://skincareprice.com/methodology' },
+  alternates: { canonical: 'https://www.skincareprice.com/methodology' },
 };
 
 const SCORE_WEIGHTS: Record<keyof ProductScores, number> = {
@@ -45,7 +45,7 @@ const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'WebPage',
   name: 'SkinCarePrice Scoring Methodology',
-  url: 'https://skincareprice.com/methodology',
+  url: 'https://www.skincareprice.com/methodology',
   description: 'Our full editorial methodology for independently scoring skincare products.',
   publisher: { '@type': 'Organization', name: 'SkinCarePrice' },
 };

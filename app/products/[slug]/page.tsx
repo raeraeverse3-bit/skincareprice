@@ -25,11 +25,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${product.name} by ${product.brand} Review`,
     description: `${product.tagline} Tier: ${product.tier} (${TIER_LABELS[product.tier]}). Score: ${product.overallScore}/10. Read our full independent review.`,
-    alternates: { canonical: `https://skincareprice.com/products/${slug}` },
+    alternates: { canonical: `https://www.skincareprice.com/products/${slug}` },
     openGraph: {
       title: `${product.name} — ${TIER_LABELS[product.tier]}`,
       description: product.tagline,
-      url: `https://skincareprice.com/products/${slug}`,
+      url: `https://www.skincareprice.com/products/${slug}`,
       type: 'article',
     },
   };
@@ -46,7 +46,7 @@ export default async function ProductPage({ params }: Props) {
     name: product.name,
     brand: { '@type': 'Brand', name: product.brand },
     description: product.description,
-    url: `https://skincareprice.com/products/${product.slug}`,
+    url: `https://www.skincareprice.com/products/${product.slug}`,
     offers: {
       '@type': 'Offer',
       price: product.price,

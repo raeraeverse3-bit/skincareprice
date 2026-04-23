@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Journal — Skin Science, Philosophy & Honest Guidance',
   description:
     'The SkinCarePrice journal. Skin science, product philosophy, ingredient education, and honest guidance for every decade.',
-  alternates: { canonical: 'https://skincareprice.com/blog' },
+  alternates: { canonical: 'https://www.skincareprice.com/blog' },
 };
 
 export default function BlogPage() {
@@ -14,12 +14,12 @@ export default function BlogPage() {
     '@context': 'https://schema.org',
     '@type': 'Blog',
     name: 'SkinCarePrice Journal',
-    url: 'https://skincareprice.com/blog',
+    url: 'https://www.skincareprice.com/blog',
     description: 'Skin science, philosophy, and honest skincare guidance.',
     blogPost: BLOG_POSTS.map((p) => ({
       '@type': 'BlogPosting',
       headline: p.title,
-      url: `https://skincareprice.com/blog/${p.slug}`,
+      url: `https://www.skincareprice.com/blog/${p.slug}`,
       datePublished: p.publishedAt,
       author: { '@type': 'Organization', name: p.author },
     })),

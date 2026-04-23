@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: 'SkinCarePrice — Honest Skincare Reviews & Comparisons',
   description:
     "Independent skincare product reviews with tier scoring (S/A/B/C/D), age-decade rankings, and honest filters. We support the skin you're in.",
-  alternates: { canonical: 'https://skincareprice.com' },
+  alternates: { canonical: 'https://www.skincareprice.com' },
 };
 
 const TIER_SUMMARY: Tier[] = ['S', 'A', 'B', 'C', 'D'];
@@ -24,12 +24,12 @@ export default function HomePage() {
     '@type': 'ItemList',
     name: 'Top-Rated Skincare Products',
     description: 'SkinCarePrice independently ranked skincare products',
-    url: 'https://skincareprice.com',
+    url: 'https://www.skincareprice.com',
     numberOfItems: PRODUCTS.length,
     itemListElement: PRODUCTS.map((p, i) => ({
       '@type': 'ListItem',
       position: i + 1,
-      url: `https://skincareprice.com/products/${p.slug}`,
+      url: `https://www.skincareprice.com/products/${p.slug}`,
       name: p.name,
     })),
   };
