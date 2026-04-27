@@ -4,7 +4,6 @@ import Link from 'next/link';
 import { BLOG_POSTS, getBlogPostBySlug } from '@/lib/blog';
 import { PRODUCTS } from '@/lib/products';
 import BlogCTA from '@/components/BlogCTA';
-import FTCDisclosure from '@/components/FTCDisclosure';
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -130,11 +129,6 @@ export default async function BlogPostPage({ params }: Props) {
             </time>
           </div>
         </header>
-
-        {/* FTC Disclosure */}
-        <div className="mb-8">
-          <FTCDisclosure inline />
-        </div>
 
         {/* Body */}
         <div className="prose max-w-none space-y-5 text-[var(--color-text-muted)] font-body text-base leading-relaxed text-justify" itemProp="articleBody">
