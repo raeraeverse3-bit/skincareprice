@@ -1220,7 +1220,7 @@ Use our <a href="/compare">product comparison tool</a> to stack face oil scores 
       'I spent a year somewhere with almost no mirrors, no one watching, and nothing to perform for. I came home glowing in every photograph. This is what that taught me about where radiance actually comes from.',
     content: `There is a photograph from my year abroad that I keep coming back to. I am standing outside in full afternoon light — the honest, unforgiving kind — and I look radiant. Not in a filtered way. Not in the way of a good hair day or a lucky angle. I mean genuinely, deeply luminous in a way that very few photos of me before or since have quite captured.
 
-Here is what I was doing for my skincare at the time: essentially nothing. A basic cleanser. Whatever moisturizer was available locally. No routine. No actives. No curated dropper bottles lined up in order of application. I was living out of what I'd packed, and skincare was the last thing on my mind.
+Here is what I was doing for my skincare at the time: essentially nothing. Washing with water and a wash rag, scrubbing 3 times a week with a dermafoliant, face massages, and not looking in the mirror. No routine. No actives. No curated dropper bottles lined up in order of application. No staring in the mirror over-analyzing/thinking "do I finally need to make my first botox appointment". I was living, constantly on the move, and skincare was the last thing on my mind.
 
 What I was doing instead: walking everywhere. Eating food that had actually grown near where I was eating it. Sleeping like a person whose nervous system had stopped treating mild inconveniences as emergencies. Existing in a culture where people genuinely did not care what I looked like — where the social mirror that tracks your appearance constantly, adjusting your self-image in real time, was simply not there.
 
@@ -1228,45 +1228,39 @@ Then I came home and looked at the photos.
 
 **On being somewhere without mirrors**
 
-This sounds more dramatic than it was. The place I lived had fewer mirrors than I was used to — not zero, but not the multiple-times-daily check-in that most modern life involves. There was no full-length mirror in my apartment. The bathroom mirror was small and positioned awkwardly. Mirrors in public spaces were rare in a way that felt almost impossible to imagine back home.
+This sounds more dramatic than it was. The place I lived had fewer mirrors than I was used to — not zero, but not the multiple-times-daily check-in that most modern life involves. In most places there was no full length mirror and the bathroom mirror was small and positioned awkwardly. Mirrors in public spaces were rare in a way that felt almost impossible to imagine back home.
 
-What happened, over time, was that I stopped monitoring. Not consciously — it wasn't a practice or an intention. I just stopped having the opportunity, and eventually stopped thinking to look. My face existed as something I moved through the world in, rather than something I evaluated from the outside.
+What happened, over time, was that I stopped monitoring. Not consciously… it wasn't a practice or an intention. I just stopped having the opportunity, and eventually stopped thinking to look. My face existed as something I moved through the world in, rather than something I evaluated from the outside.
 
-I cannot fully articulate what this did to my nervous system, except to say: a lot. A quiet but significant thing. The low-level monitoring that most of us carry without naming it — the constant, half-conscious assessment of how we are presenting — was simply absent. And something in me relaxed in a way I hadn't realized I'd been holding.
+I cannot fully articulate what this did to my nervous system, except to say: a lot. A quiet but significant thing, the low-level monitoring that most of us carry without naming it, the constant, half-conscious assessment of how we are presenting… was simply absent. And something in me relaxed in a way I hadn't realized I'd been holding.
 
 **The photos didn't lie**
 
-When I got home and looked at a year of pictures, the change was visible. My skin in those photographs was different. More even. Genuinely luminous. Not every day — some days I was clearly tired, or sun-flushed, or a bit wind-chapped. But the baseline was higher than it had been. The glow that I'd been chasing through product after product was just there, quietly, in images I hadn't even tried to look good in.
+When I look back at years of pictures, the change was visible. My skin was genuinely luminous and shining without a care in the world. The glow that an entire world of beauty addicts spend their life chasing, product after product was just there, quietly, in the images that captured it.
 
-I spent some time trying to figure out what had caused it. Better sleep, obviously. Consistent movement. Real food. Less stress — or more precisely, a different relationship to stress. But also something harder to quantify: the absence of the monitoring itself. The skin doesn't lie. When you are anxious about it, that shows up. When you are moving through your life with full presence and your attention elsewhere, that shows up too.
+Isn't it strange that something so simple yet… harder to quantify is the drastic change the absence of the monitoring oneself brings on. When you are anxious about it, that shows up. When you are moving through your life with full presence and your attention elsewhere, that shows up too.
 
-It is not a mystical claim. There is genuine evidence that chronic low-grade psychological stress disrupts the skin's barrier function, elevates inflammatory response, and slows healing. The skin is not decorative. It is an organ that responds to the conditions of your life with remarkable directness.
+It is not a mystical claim. There is genuine evidence that chronic low-grade psychological stress disrupts the skin's barrier function, elevates inflammatory response, and slows healing. The skin is not decorative it's an organ that responds to the conditions of your life with remarkable directness.
 
 **Coming home and choosing differently**
 
-I didn't come home and throw out my skincare. I'm not that person and this isn't that story. But I did come home thinking differently about what I was asking of it.
+I didn't come home and throw out my skincare, I'm not that person and this isn't that story (lol). But I did come home thinking differently about what I was asking of it and of myself. The ask… minimal + serving. Products that support and make my skin feel amazing and an arms length away from the mirror. I've found the zoom-in is what gets us and sorry to break it to you but your wrinkles are not the whole picture, you are!
 
-The products I had been using before I left were, in retrospect, an attempt to compensate — to out-product the effects of a life moving too fast, sleeping too little, checking the mirror too often. Twelve products cannot do that work. They can support the skin's actual biology. They cannot substitute for the conditions that allow skin to simply be skin.
-
-What I came home to was a quieter approach. Fewer things, chosen with more care. And the version of my skin that had existed abroad — unhurried, unmonitored, quietly glowing — as the benchmark I was actually trying to return to, not some idealized before photo.
-
-**What has stayed in the routine**
+Some of my favorite unhurried, unmonitored, quietly glowing products include:
 
 The <a href="https://oseamalibu.com/?rfsn=7790532.88631ca&utm_source=refersion&utm_medium=affiliate&utm_campaign=7790532.88631ca" target="_blank" rel="noopener noreferrer sponsored">OSEA Ocean Cleanser</a> is the one I come back to every time I try anything else. Sulfate-free, seaweed-based, low-pH. My face feels comfortable immediately after rinsing — not squeaky-clean-stripped, not that tight pull of a cleanser that got too enthusiastic. Just clean. Something that respected the barrier instead of dismantling it twice a day. The 9.5 skin compatibility score in our database is not a coincidence.
 
-The <a href="https://www.thegoldensecrets.com/?rfsn=9073470.1e33271&utm_source=refersion&utm_medium=affiliate&utm_campaign=9073470.1e33271" target="_blank" rel="noopener noreferrer sponsored">Golden Secrets Youth Beauty Face Oil</a> is the other constant. I use it morning and night. Ayurvedic-rooted, 24k gold, rosehip, sea buckthorn, turmeric, plant stem cells. Think Dirty Verified. It came into my life after I got back from abroad and it felt like the right translation of what I'd learned: nourishment, not correction. Something that gives the skin what it needs and gets out of the way.
+The <a href="https://www.thegoldensecrets.com/?rfsn=9073470.1e33271&utm_source=refersion&utm_medium=affiliate&utm_campaign=9073470.1e33271" target="_blank" rel="noopener noreferrer sponsored">Golden Secrets Youth Beauty Face Oil</a> is the other constant. I use it morning and night. Ayurvedic-rooted, 24k gold, rosehip, sea buckthorn, turmeric, plant stem cells. Think Dirty Verified.
 
 On days when my skin needs more — when travel or sleep disruption or a stretch of difficult weeks has pulled hydration from the surface — I reach for the <a href="https://oseamalibu.com/?rfsn=7790532.88631ca&utm_source=refersion&utm_medium=affiliate&utm_campaign=7790532.88631ca" target="_blank" rel="noopener noreferrer sponsored">OSEA Hyaluronic Sea Serum</a>. Three molecular weights of hyaluronic acid in a seaweed base, applied on damp skin before the oil. When stress or weather has stripped something away, this is the one that brings it back without drama.
 
 Three products. That is the routine. The same three I'd describe to anyone who asked.
 
-**What I think radiance actually is**
+**But on the flip… what I think radiance actually is**
 
-Here is what I believe now, looking at that photograph from abroad: radiance is not a product outcome. It is not the result of twelve well-chosen actives applied in the correct order. It can be supported by good skincare — and I do think good skincare matters, which is the entire reason this site exists. But the fundamental glow is not purchasable.
+It's what happens when you are sleeping well. When you are moving. When you are present in a life that feels worth showing up for. When the nervous system has enough quiet to allow the skin to do its actual job. The cleanser supports it. The oil nourishes it. The serum sustains it on the harder days. But the thing underneath — the actual glow — comes from how you're moving through the world.
 
-It is what happens when you are sleeping well. When you are moving. When you are present in a life that feels worth showing up for. When the nervous system has enough quiet to allow the skin to do its actual job. The cleanser supports it. The oil nourishes it. The serum sustains it on the harder days. But the thing underneath — the actual glow — comes from how you're moving through the world.
-
-I went abroad and forgot to look in the mirror and somehow came home more luminous than I'd been in years. I keep that photograph somewhere I can see it. Not as a goal. As a reminder of what my skin already knows how to do when I get out of its way.`,
+I went abroad and forgot to look in the mirror and somehow came home more luminous than I'd been in years. I keep that photograph somewhere I can see it. Not as a goal but as a reminder of what my skin already knows how to do when I get out of its way.`,
     category: 'Personal',
     tags: ['personal', 'founder story', 'radiance', 'OSEA', 'The Golden Secrets', 'glow', 'skin wellness', 'travel'],
     image: '/images/blog/mirror-abroad-radiance.jpg',
