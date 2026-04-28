@@ -54,6 +54,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: { canonical: 'https://www.skincareprice.com' },
+  icons: { icon: '/favicon.png' },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
