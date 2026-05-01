@@ -115,6 +115,8 @@ export interface BlogPost {
   slug: string;
   title: string;
   displayTitle?: string;
+  metaTitle?: string;
+  metaDescription?: string;
   excerpt: string;
   content: string;
   category: string;

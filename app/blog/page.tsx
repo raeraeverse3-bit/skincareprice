@@ -3,9 +3,9 @@ import Link from 'next/link';
 import { BLOG_POSTS } from '@/lib/blog';
 
 export const metadata: Metadata = {
-  title: 'Journal — Skin Science, Philosophy & Honest Guidance',
+  title: 'Skincare Dossier — Skin Science & Honest Guidance',
   description:
-    'The SkinCarePrice journal. Skin science, product philosophy, ingredient education, and honest guidance for every decade.',
+    'The Skincare Dossier by SkinCarePrice. Skin science, ingredient education, and independent product guidance for every skin type, concern, and decade.',
   alternates: { canonical: 'https://www.skincareprice.com/blog' },
 };
 

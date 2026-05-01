@@ -270,6 +270,9 @@ Start with one product. Give it six weeks. See what happens.`,
     id: '8',
     slug: 'forty-years-two-products-skin-i-stopped-fighting',
     title: '40 Years, Two Products, and the Skin I Finally Stopped Fighting',
+    metaTitle: 'A Golden Secrets Review: 40 Years, Two Products',
+    metaDescription:
+      'A personal essay featuring a Golden Secrets review. How a two-product routine at 40 replaced a cabinet full of products that were never quite right.',
     excerpt:
       "A personal essay on making peace with your face before the beauty industry tells you to start worrying about it — and the two products that have been there the whole time.",
     content: `I made a decision in my 30s, that I would no longer spend my life at war with my own face.
@@ -726,6 +729,9 @@ The highest-scoring products in our database are not always the ones with the mo
     id: '13',
     slug: 'smokey-eyes-at-22-to-osea-at-40-skincare-life-in-products',
     title: 'From Smokey Eyes at 22 to OSEA at 40: My Skincare Life in Products',
+    metaTitle: 'An OSEA Review Inside a 20-Year Skincare Story',
+    metaDescription:
+      'An OSEA review woven into a personal skincare journey — from smokey eyes at 22 to a simplified routine at 40, and the products that changed the approach.',
     excerpt:
       'A product-by-product tour through the phases — the makeup-first 20s, the ingredient-education 30s, and the first routine that actually makes sense.',
     content: `I have a photograph from my early twenties that I love and kind of hate at the same time. I am at some event — doesn't matter which one — and I am wearing the most aggressively smokey eye you have ever seen in your life. Deep black, heavy blending, a little shimmer on the inner corner because it was THAT era and we were all doing it. My skin underneath is… fine. You can't really tell because there is a full beat of bronzer that would make today's "clean girl makeup" and "your skin but better" run away crying. But twenty-two living in California looked great on everyone.
@@ -1121,6 +1127,9 @@ See our full series on skin through the decades: <a href="/blog/your-skin-in-you
     id: '18',
     slug: 'best-face-oils-2026-ranked',
     title: 'Best Face Oils (2026) — Ranked by Ingredients, Glow & Value',
+    metaTitle: 'Best Face Oils 2026, Ranked by Score & Value',
+    metaDescription:
+      'The best face oils for 2026, ranked across eight scoring dimensions. Five oils, full ingredient breakdowns, and our top pick for every skin type and budget.',
     excerpt:
       'Five face oils scored across eight dimensions. Here is what separates a genuinely nourishing face oil from a beautifully packaged one — plus our top recommendation for every skin type and price point.',
     content: `Face oils have earned their place in the serious skincare conversation. The evidence for their barrier-supporting, hydration-sealing, and antioxidant benefits is solid — and for anyone whose skin leans dry, mature, or depleted, a well-formulated face oil is often the highest-return product in the routine.
@@ -1216,6 +1225,9 @@ Use our <a href="/compare">product comparison tool</a> to stack face oil scores 
     id: '19',
     slug: 'mirror-doesnt-lie-living-abroad-radiance',
     title: "The Mirror Doesn't Lie: What Living Abroad Taught Me About Radiance",
+    metaTitle: 'Living Abroad, No Mirror, Best Skin: An OSEA Story',
+    metaDescription:
+      'How a year abroad without mirrors produced the best skin of my life. On OSEA, The Golden Secrets, and the real source of radiance — it is not what you think.',
     excerpt:
       'I spent a year somewhere with almost no mirrors, no one watching, and nothing to perform for. I came home glowing in every photograph. This is what that taught me about where radiance actually comes from.',
     content: `There is a photograph from my year abroad that I keep coming back to. I am standing outside in full afternoon light — the honest, unforgiving kind — and I look radiant. Not in a filtered way. Not in the way of a good hair day or a lucky angle. I mean genuinely, deeply luminous in a way that very few photos of me before or since have quite captured.

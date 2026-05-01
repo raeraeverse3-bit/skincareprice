@@ -8,9 +8,9 @@ import type { Tier } from '@/lib/types';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'SkinCarePrice — Honest Skincare Reviews & Comparisons',
+  title: 'SkinCarePrice — Skincare Price Comparison & Reviews',
   description:
-    "Independent skincare product reviews with tier scoring (S/A/B/C/D), age-decade rankings, and honest filters. We support the skin you're in.",
+    'Independent skincare price comparison with tier-scored reviews. The Skincare Dossier covers ingredients, skin science, and honest guidance for every decade.',
   alternates: { canonical: 'https://www.skincareprice.com' },
 };
 

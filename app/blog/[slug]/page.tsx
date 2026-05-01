@@ -18,12 +18,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = getBlogPostBySlug(slug);
   if (!post) return {};
   return {
-    title: post.title,
-    description: post.excerpt,
+    title: post.metaTitle ?? post.title,
+    description: post.metaDescription ?? post.excerpt,
     alternates: { canonical: `https://www.skincareprice.com/blog/${slug}` },
     openGraph: {
-      title: post.title,
-      description: post.excerpt,
+      title: post.metaTitle ?? post.title,
+      description: post.metaDescription ?? post.excerpt,
       type: 'article',
       publishedTime: post.publishedAt,
       modifiedTime: post.updatedAt,
