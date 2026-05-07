@@ -3,7 +3,7 @@ import { PRODUCTS } from '@/lib/products';
 import { BLOG_POSTS } from '@/lib/blog';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = 'https://skincareprice.com';
+  const base = 'https://www.skincareprice.com';
 
   const staticPages: MetadataRoute.Sitemap = [
     { url: base, lastModified: new Date(), changeFrequency: 'daily', priority: 1 },

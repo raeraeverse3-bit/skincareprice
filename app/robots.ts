@@ -9,7 +9,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/api/', '/_next/'],
       },
     ],
-    sitemap: 'https://skincareprice.com/sitemap.xml',
-    host: 'https://skincareprice.com',
+    sitemap: 'https://www.skincareprice.com/sitemap.xml',
+    host: 'https://www.skincareprice.com',
   };
 }
