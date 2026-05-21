@@ -230,7 +230,7 @@ export default async function ProductPage({ params }: Props) {
               <p className="text-xs font-label text-[var(--color-text-muted)] text-center">
                 Affiliate link · We may earn a commission
               </p>
-              {product.brand === 'The Golden Secrets' && (
+              {(product.brand === 'The Golden Secrets' || product.brand === 'OSEA') && (
                 <p className="text-center text-xs font-label text-[var(--color-taupe)] mt-2">
                   Use code <span className="font-semibold text-[var(--color-dark)]">XOR10</span> for 10% off
                 </p>
