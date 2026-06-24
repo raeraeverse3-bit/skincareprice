@@ -159,7 +159,9 @@ function CompareTable() {
                   Price
                 </td>
                 {allSelected.map((p) => {
-                  const isCheapest = p.price === Math.min(...allSelected.map((x) => x.price));
+                  const isWellnessZeroPrice = p.category.includes('skin-wellness') && p.price === 0;
+                  const pricedSelections = allSelected.filter((x) => !(x.category.includes('skin-wellness') && x.price === 0));
+                  const isCheapest = !isWellnessZeroPrice && pricedSelections.length > 0 && p.price === Math.min(...pricedSelections.map((x) => x.price));
                   return (
                     <td key={p.id} className="py-3 px-4 border-b border-[var(--color-blush)]">
                       <span
@@ -167,7 +169,7 @@ function CompareTable() {
                           isCheapest ? 'text-[var(--color-primary)]' : 'text-[var(--color-text-muted)]'
                         }`}
                       >
-                        ${p.price}
+                        {isWellnessZeroPrice ? 'Shop Now on Amazon' : `$${p.price}`}
                       </span>
                     </td>
                   );
@@ -264,7 +266,9 @@ function CompareTable() {
                       rel="noopener noreferrer sponsored"
                       className="inline-block px-4 py-2 bg-[var(--color-primary)] text-white rounded-lg text-sm font-label hover:bg-[var(--color-dark)] transition-all"
                     >
-                      Shop ${p.price}
+                      {p.category.includes('skin-wellness') && p.price === 0
+                        ? 'Shop Now on Amazon'
+                        : `Shop $${p.price}`}
                     </a>
                   </td>
                 ))}

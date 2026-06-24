@@ -212,12 +212,20 @@ export default async function ProductPage({ params }: Props) {
               </p>
               <h2 className="font-headline text-xl text-[var(--color-dark)] mb-1">{product.name}</h2>
               <div className="flex items-baseline gap-2 mb-4">
-                <span className="font-headline text-3xl text-[var(--color-primary)] font-bold">
-                  ${product.price}
-                </span>
-                <span className="text-xs font-label text-[var(--color-text-muted)]">
-                  via {product.affiliatePartner}
-                </span>
+                {product.category.includes('skin-wellness') && product.price === 0 ? (
+                  <span className="font-headline text-xl text-[var(--color-primary)] font-bold">
+                    Shop Now on Amazon
+                  </span>
+                ) : (
+                  <>
+                    <span className="font-headline text-3xl text-[var(--color-primary)] font-bold">
+                      ${product.price}
+                    </span>
+                    <span className="text-xs font-label text-[var(--color-text-muted)]">
+                      via {product.affiliatePartner}
+                    </span>
+                  </>
+                )}
               </div>
               <a
                 href={product.affiliateUrl}

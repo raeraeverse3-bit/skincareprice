@@ -124,7 +124,9 @@ export default function ProductCard({
             className="flex-1 text-center text-sm font-label font-medium py-2 px-3 rounded-lg bg-[var(--color-primary)] text-white hover:bg-[var(--color-dark)] transition-all"
             itemProp="url"
           >
-            Shop ${product.price}
+            {product.category.includes('skin-wellness') && product.price === 0
+              ? 'Shop Now on Amazon'
+              : `Shop $${product.price}`}
           </a>
         </div>
         {(product.brand === 'The Golden Secrets' || product.brand === 'OSEA') && (

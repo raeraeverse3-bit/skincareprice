@@ -120,7 +120,9 @@ export default function HomePage() {
                       rel="noopener noreferrer sponsored"
                       className="text-sm font-label px-3 py-1.5 bg-[var(--color-primary)] text-white rounded-lg hover:bg-[var(--color-dark)] transition-all"
                     >
-                      Shop ${product.price}
+                      {product.category.includes('skin-wellness') && product.price === 0
+                        ? 'Shop Now on Amazon'
+                        : `Shop $${product.price}`}
                     </a>
                   </div>
                 </div>

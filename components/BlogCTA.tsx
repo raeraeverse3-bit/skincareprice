@@ -70,7 +70,9 @@ export default function BlogCTA({ products, otherPosts }: Props) {
                       rel="noopener noreferrer sponsored"
                       className="flex-1 text-center text-xs font-label font-medium py-1.5 px-2 rounded-lg bg-[var(--color-primary)] text-white hover:bg-[var(--color-dark)] transition-all"
                     >
-                      Shop ${product.price}
+                      {product.category.includes('skin-wellness') && product.price === 0
+                        ? 'Shop Now on Amazon'
+                        : `Shop $${product.price}`}
                     </a>
                   </div>
                   {(product.brand === 'The Golden Secrets' || product.brand === 'OSEA') && (
