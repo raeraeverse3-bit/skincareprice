@@ -47,13 +47,6 @@ export default async function ProductPage({ params }: Props) {
     brand: { '@type': 'Brand', name: product.brand },
     description: product.description,
     url: `https://www.skincareprice.com/products/${product.slug}`,
-    offers: {
-      '@type': 'Offer',
-      price: product.price,
-      priceCurrency: 'USD',
-      availability: 'https://schema.org/InStock',
-      url: product.affiliateUrl,
-    },
     aggregateRating: {
       '@type': 'AggregateRating',
       ratingValue: product.overallScore,
