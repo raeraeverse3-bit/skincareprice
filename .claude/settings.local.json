@@ -20,7 +20,8 @@
       "Bash(npx tsc *)",
       "Bash(python3 -c ' *)",
       "Bash(identify \"/Users/rae/skincareprice/public/images/products/medicube-zero-pore-pad.webp\")",
-      "Bash(sips -s format jpeg \"/Users/rae/skincareprice/public/images/products/medicube-zero-pore-pad.webp\" --out \"/Users/rae/skincareprice/public/images/products/medicube-zero-pore-pad.jpg\")"
+      "Bash(sips -s format jpeg \"/Users/rae/skincareprice/public/images/products/medicube-zero-pore-pad.webp\" --out \"/Users/rae/skincareprice/public/images/products/medicube-zero-pore-pad.jpg\")",
+      "Bash(npx eslint *)"
     ]
   }
 }
