@@ -1335,7 +1335,7 @@ export const PRODUCTS: Product[] = [
     priceRange: 'budget',
     affiliateUrl: 'https://www.amazon.com/dp/B085KVXB84?tag=skincareprice-20',
     affiliatePartner: 'Amazon',
-    image: '/images/golden_jojoba_oil.jpg',
+    image: '/images/products/golden_jojoba_oil.jpg',
     tier: 'A',
     overallScore: 8.1,
     isAgeSupport: true,
