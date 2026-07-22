@@ -3966,11 +3966,11 @@ Use our <a href="/compare">comparison tool</a> to stack these humidifiers, or an
       "Beef tallow is having a moment, and the science isn't nothing. R gets into what animal-fat occlusives actually do for skin — and shares her whipped tallow balm recipe for when you'd rather skip the TikTok rabbit hole and just make the thing.",
     content: `<em>This post contains affiliate links. If you purchase through them, I may earn a small commission — at no cost to you. It doesn't change what I say or what I actually use.</em>
 
-I'm going to be honest with you: when beef tallow started showing up in my feed, my first instinct was to file it somewhere between "seed oil fear-mongering" and "whatever's currently on Dr. Oz's revival tour." Which is to say — I was skeptical, not interested, and mildly annoyed that the skincare internet had apparently moved from slugging with petroleum jelly to rendering fat.
+Beef tallow kept showing up in my feed and I kept scrolling past it. Mentally filed it somewhere between "seed oil discourse" and "things I'm not engaging with this week" — which, for the record, is a very full folder.
 
-But I kept seeing it. Not just from the raw-everything crowd, not just from the trad-wife corner of Instagram — from a genuinely wide range of people who were just... making it themselves for $20 and reporting back positively. And that's the thing about the Dossier: I try not to dismiss something because the aesthetic around it annoys me. Dismissing the thing and dismissing the fringe are two different jobs.
+What eventually moved it was how many different kinds of people were quietly reporting back positively. Not just the raw-everything crowd or the trad-wife corner of Instagram — a genuinely wide range of people making it themselves for about $20 and saying it worked. That's a different signal than trend-launch hype.
 
-So I actually looked at the ingredient profile. And I made the balm. And now I'm writing this post, which should tell you something.
+I looked at the ingredient profile. Then I made the balm. The profile is more interesting than I expected, and the balm is on my bathroom shelf. That's where I'm writing from.
 
 **What beef tallow actually is, and why it's trending**
 
