@@ -3964,9 +3964,7 @@ Use our <a href="/compare">comparison tool</a> to stack these humidifiers, or an
       "Beef tallow skincare is everywhere right now — and honestly, the science isn't nothing. R digs into what animal-fat occlusives actually do, and shares the Dossier whipped tallow balm DIY recipe worth trying.",
     excerpt:
       "Beef tallow is having a moment, and the science isn't nothing. R gets into what animal-fat occlusives actually do for skin — and shares her whipped tallow balm recipe for when you'd rather skip the TikTok rabbit hole and just make the thing.",
-    content: `<em>This post contains affiliate links. If you purchase through them, I may earn a small commission — at no cost to you. It doesn't change what I say or what I actually use.</em>
-
-Beef tallow kept showing up in my feed and I kept scrolling past it. Mentally filed it somewhere between "seed oil discourse" and "things I'm not engaging with this week" — which, for the record, is a very full folder.
+    content: `Beef tallow kept showing up in my feed and I kept scrolling past it. Mentally filed it somewhere between "seed oil discourse" and "things I'm not engaging with this week" — which, for the record, is a very full folder.
 
 What eventually moved it was how many different kinds of people were quietly reporting back positively. Not just the raw-everything crowd or the trad-wife corner of Instagram — a genuinely wide range of people making it themselves for about $20 and saying it worked. That's a different signal than trend-launch hype.
 
@@ -4001,16 +3999,21 @@ The real caveat: not all tallow is equal. Quality matters here in a way it doesn
 
 **Instructions:**
 
-1. **Melt:** If your tallow is hard, gently melt it in a double boiler until just liquefied. Do not microwave — the fat can overheat unevenly and degrade the vitamins you're trying to preserve.
-2. **Mix:** Add jojoba oil while still warm. Stir to combine. Jojoba is technically a liquid wax, not an oil, and it acts as a lightweight carrier that softens the tallow without changing its occlusive character.
-3. **Cool:** Let the mixture cool until it begins to solidify but is still soft — about 20–30 minutes in the fridge works perfectly. You're looking for the consistency of softened butter, not liquid and not fully hard.
-4. **Whip:** Using a hand mixer or stand mixer, whip the semi-solid mixture until light and fluffy — about 5–10 minutes. This is where the texture transforms. You'll go from a slightly greasy paste to something genuinely cloud-like.
-5. **Add essential oils** if using, and whip briefly again to incorporate.
-6. **Store:** Spoon into a clean glass jar with a lid. A small jar fits perfectly in your bag. Shelf-stable for several months in a cool dry place.
+1. Melt: If your tallow is hard, gently melt it in a double boiler until just liquefied. Do not microwave — the fat can overheat unevenly and degrade the vitamins you're trying to preserve.
+
+2. Mix: Add jojoba oil while still warm. Stir to combine. Jojoba is technically a liquid wax, not an oil, and it acts as a lightweight carrier that softens the tallow without changing its occlusive character.
+
+3. Cool: Let the mixture cool until it begins to solidify but is still soft — about 20–30 minutes in the fridge works perfectly. You're looking for the consistency of softened butter, not liquid and not fully hard.
+
+4. Whip: Using a hand mixer or stand mixer, whip the semi-solid mixture until light and fluffy — about 5–10 minutes. This is where the texture transforms. You'll go from a slightly greasy paste to something genuinely cloud-like.
+
+5. Add essential oils if using, and whip briefly again to incorporate.
+
+6. Store: Spoon into a clean glass jar with a lid. A small jar fits perfectly in your bag. Shelf-stable for several months in a cool dry place.
 
 <em>Note: If it feels too greasy on your skin, add a little more jojoba oil next time for a lighter texture. If it's too firm straight out of the fridge, give it a few minutes at room temperature before using.</em>
 
-I use this on my hands, elbows, décolleté, and the backs of my arms — not on my face, where I'm happy with my existing routine, and not as a replacement for anything. It's a body treatment. A genuinely good one that costs about $8 per batch once you have your supplies.
+I use this on my hands, elbows, décolleté, and the backs of my arms. Some days it goes on my face too — I listen to my skin. It costs about $8 per batch once you have your supplies.
 
 **If you'd rather skip the kitchen: the upgrade I actually reach for**
 
@@ -4030,9 +4033,7 @@ But I think the interest in it is telling us something real about what people ar
 
 I'm not swapping out my OSEA cleanser for it. But I've got a jar on my bathroom shelf and I'm not embarrassed about it. The Dossier doesn't do trend-chasing, but it also doesn't do trend-dismissing. This one earned its spot.
 
-If you want to see how occlusive ingredients compare across our reviewed products, our <a href="/compare">comparison tool</a> is a good place to start — and our <a href="/methodology">methodology page</a> explains how we weight barrier support in the scoring rubric.
-
-xo, R.`,
+If you want to see how occlusive ingredients compare across our reviewed products, our <a href="/compare">comparison tool</a> is a good place to start — and our <a href="/methodology">methodology page</a> explains how we weight barrier support in the scoring rubric.`,
     category: 'Personal',
     tags: ['personal', 'founder story', 'beef tallow', 'DIY skincare', 'occlusives', 'skin barrier', 'OSEA', 'The Golden Secrets', 'jojoba oil', 'whipped balm'],
     image: '/images/blog/beef-tallow-diy-whipped-balm.jpg',
